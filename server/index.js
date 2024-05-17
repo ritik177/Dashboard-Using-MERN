@@ -40,7 +40,7 @@ app.use("/sales",salesRoutes);
     // useNewUrlParser:true,
     // useUnifiedTopology:true,
  }).then(()=>{
-    app.listen(PORT, () => console.log(`Database connected at Port: ${PORT}`));
+    app.listen(PORT, () => console.log(`Database connected at Port : ${PORT}`));
  }).catch((error) => {
     console.log(`Database connection error: ${error}`);
     process.exit(1); // Exit with failure code
